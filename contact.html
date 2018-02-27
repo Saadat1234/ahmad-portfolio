@@ -13,9 +13,31 @@
       </ul>
     </nav>
   </header>
-  <main class="main-container">
-    <h2 class="heading2-content">Contact Me</h2>
-  </main>
+
+  <div class="container">
+    <form id="contact" action="" method="post">
+      <h3>Contact Me</h3>
+      <h4>Feel free to Contact Me</h4>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </div>
   <aside class="aside-container">
     <figure class="figure-content">
       <img class="round-img" src="images/real.jpg" alt="logo">
@@ -24,8 +46,14 @@
   </aside>
   <footer class="footer-container">
     <p class="p-content">
-      </a>
-    </p>
+      <div>
+        <a href="#"><span>Facebook</span></a>
+        <a href="#"><span>Twitter</span></a>
+        <a href="#"><span>Google+</span></a>
+        <a href="#"><span>Github</span></a>
+        <a href="#"><span>Dribbble</span></a>
+        <a href="#"><span>CodePen</span></a>
+      </div>
   </footer>
 </body>
 
