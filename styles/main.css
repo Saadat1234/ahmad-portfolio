@@ -1,40 +1,72 @@
-@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
+  font-family: 'Roboto', sans-serif;
   font-size: 0.625em;
-}
-
-body, body * {
-  box-sizing: border-box;
+  background-color: skyblue;
 }
 
 body {
   font-size: 1.6rem;
 }
 
-.wrapper {
-  margin: auto;
-  width: 90vw;
+.heading-container {
+  font-size: 48px;
+  text-align: center;
 }
 
-.site-header {
-  padding-top: 5%;
-  height: 100vh;
+.heading2-content {
+  font-size: 32px;
+  text-align: center;
 }
 
-.main-title {
-  font-size: 3rem;
+.p-photo {
+  height: 125px;
+  width: 125px;
+  float: left;
+  top: 0;
+  bottom: 0;
 }
 
-.site-navigation ul {
-  margin: 0;
-  padding: 0;
+.about-me {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.round-img {
+  display: inline-block;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.round-1 {
+  float: left;
+  width: 200px;
+  height: 400px;
+}
+
+.nav-content, .ul-content li {
+  display: inline-block;
+  width: auto%;
   list-style-type: none;
 }
 
-.site-navigation li {
-  display: inline-block;
-  border: 1px solid;
-  padding: 0.5em;
-  margin: 0 5%;
-  box-shadow: 5px 3px rgba(0, 0, 0, 0.5);
+li {
+  background: gray;
+  margin: 25px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.aside-container {
+  height: 80vh;
+  width: 20vw;
+  float: left;
+}
+
+.main-container {
+  text-align: center;
+  width: 75vw;
 }
