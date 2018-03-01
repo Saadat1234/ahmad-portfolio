@@ -1,72 +1,160 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 html {
   font-family: 'Roboto', sans-serif;
-  font-size: 0.625em;
-  background-color: skyblue;
+  font-size: 0.625rem;
+  background-image: url(../images/original.gif);
+}
+
+body, body * {
+  box-sizing: border-box;
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.6em;
 }
 
-.heading-container {
-  font-size: 48px;
+h1 {
+  font-size: 3em;
   text-align: center;
+  color: white;
+  text-shadow: 5px 5px 1px red;
 }
 
-.heading2-content {
-  font-size: 32px;
+nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 75%;
+  margin-left: 15.625em;
+  margin-bottom: 5em;
   text-align: center;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+li:hover {
+  background: white;
+}
+
+ul li {
+  font-weight: bold;
+  background-color: red;
+  margin: 1.25em;
+  padding: 0.625em;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+li a {
+  margin-right: 3.125em;
+  padding: 3.125em;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2.850em;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.main-container {
+  background: black;
+  color: white;
+  text-align: center;
+  width: 75%;
+  margin-left: 15.625em;
+  padding: 6.25em;
+  border: 1px solid blue;
+  border-radius: 3.125em;
 }
 
 .p-photo {
-  height: 125px;
-  width: 125px;
+  height: 8.4375em;
+  width: 7.5em;
   float: left;
-  top: 0;
-  bottom: 0;
+  margin-top: -44px;
 }
 
 .about-me {
-  font-size: 16px;
+  font-size: 1em;
   text-align: justify;
-}
-
-.round-img {
-  display: inline-block;
-  float: left;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-.round-1 {
-  float: left;
-  width: 200px;
-  height: 400px;
-}
-
-.nav-content, .ul-content li {
-  display: inline-block;
-  width: auto%;
-  list-style-type: none;
-}
-
-li {
-  background: gray;
-  margin: 25px;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 5px;
+  margin-bottom: 5px;
 }
 
 .aside-container {
   height: 80vh;
   width: 20vw;
   float: left;
+  position: fixed;
+  bottom: 9.375em;
 }
 
-.main-container {
+.round-img {
+  display: inline-block;
+  width: 11.375em;
+  height: 11.375em;
+  border-radius: 50%;
+}
+
+.round-1 {
+  width: 11.375em;
+  height: 27.375em;
+  border-radius: 15%;
+}
+
+.proghraph-content {
+  width: 75%;
+  background: green;
   text-align: center;
-  width: 75vw;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+  float: left;
+  margin-left: 249px;
+  padding: 10px;
+}
+
+/* /////////// */
+
+.container {
+  color: black;
+  width: 50%;
+  height: 50px;
+  margin-left: 249px;
+  padding: 10px;
+  margin-bottom: 3em;
+}
+
+.container #contact {
+  border: 1px solid;
+  border-radius: 5px;
+  background: red;
+}
+
+h3 {
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+.footer1-container {
+  width: 75%;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  margin-top: 249px;
+  margin-left: 55px;
+  padding: 10px;
+}
+
+.icons a {
+  width: 75%;
+  color: white;
+  background: blue;
+  border: 1px solid black;
+  margin-right: 75px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
 }
