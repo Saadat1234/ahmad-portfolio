@@ -11,14 +11,12 @@
 
 <body>
   <header class="header-container">
-    <h1 class="heading-container">Ahmad Khan's Portfolio</h1>
-    <nav class="nav-content">
-      <ul class="ul-content">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Musics</a></li>
-        <li><a href="#">Videos</a></li>
+    <h1>Ahmad Khan's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -27,35 +25,34 @@
     <form id="contact" action="" method="post">
       <h3>Contact Me</h3>
       <h4>Feel free to Contact Me</h4>
-      <fieldset>
+      <fieldset class="name">
         <input placeholder="Your name" type="text" tabindex="1" required autofocus>
       </fieldset>
-      <fieldset>
+      <fieldset class="email">
         <input placeholder="Your Email Address" type="email" tabindex="2" required>
       </fieldset>
-      <fieldset>
+      <fieldset class="message">
         <textarea placeholder="Type your Message Here...." tabindex="3" required></textarea>
       </fieldset>
-      <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      <fieldset class="submit">
+        <button name="submit" type="submit" id="contact-submit" data-submit="Sending">Submit</button>
       </fieldset>
     </form>
   </div>
   <aside class="aside-container">
-    <figure class="figure-content">
+    <figure>
       <img class="round-img" src="images/real.jpg" alt="logo">
-      <img class="round-1" src="images/AFG3.jpg" alt="nuture">
+      <img class="round-1" src="images/123.jpg" alt="nuture">
     </figure>
   </aside>
-  <footer class="footer-container">
-    <p class="p-content">
-      <div>
-        <a href="#"><span>Facebook</span></a>
-        <a href="#"><span>Gmail</span></a>
-        <a href="#"><span>Github</span></a>
-        <a href="#"><span>WhatsApp</span></a>
-        <a href="#"><span>CodePen</span></a>
-      </div>
+  <footer class="footer1-container">
+    <div class="icons">
+      <a href="https://www.facebook.com/"><span>Facebook</span></a>
+      <a href="https://mail.google.com/mail/u/0/#inbox"><span>Gmail</span></a>
+      <a href="https://github.com/"><span>Github</span></a>
+      <a href="https://codepen.io/Saadat1234/"><span>Codepen</span></a>
+      <a href="https://www.google.de/search?q=skype&oq=skype&aqs=chrome..69i57j0l5.2657j0j4&sourceid=chrome&ie=UTF-8"><span>Skype</span></a>
+    </div>
   </footer>
 </body>
 
